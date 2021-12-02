@@ -5,10 +5,14 @@
 }
 
 :root{
-    --primary-color: #FFBA00;
+    --primary-color: #014781;
     --secundary-color: #FFF1CC;
     --shadow-color: #CCC;
     --text-color: #FFF;
+}
+
+.new{
+    color: white;
 }
 
 body{
@@ -25,10 +29,11 @@ header{
     text-align: center;
     line-height: 70px;
     box-shadow: 0 1px 2px var(--shadow-color);
+    
 }
 
 .header-title{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
 }
 
